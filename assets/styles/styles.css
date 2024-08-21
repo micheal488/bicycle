@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+.header{
+    display: flex;
+    margin: 0 10px;
+}
+#purple{
+    background-color: rgb(229, 74, 183);
+}
+.form{
+    display: flex;
+    justify-content: end;
+    /* background-color: aqua; */
+    width: 80%;
+    padding-top: 4px;
+    padding-right: 5px;
+    font-size: 20px;
+    height: 30px;
+}
+.brand{
+    width: 20%;
+    font-size: 30px;
+    display: flex;
+    align-content: flex-end;
+}
+.image{
+    width: 60%;
+    align-items: center;
+    height: 1000px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    
+}
+.image img{
+    width: 80%;
+    height: 50%;
+}
+.image li button{
+    height: 20px;
+    width: 20px;
+    margin: 20px;
+    border-radius: 50%;
+}
+.alpha{
+    width: 40%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.second{
+    display: flex;
+    margin-top: -200px;
+}
+.log{
+    display: flex;
+}
+.tenure{
+    width: 50%;
+}
+.button{
+    width: 50%;
+}
+.tenure li{
+    margin: 50px 0;
+}
+.button li{
+    margin: 50px 0;
+}
+.article li{
+    margin: 20px 0;
+}
+.price li button{
+    margin-top: 30px;
+    width: 48%;
+    height: 50px;
+}
+.button li button{
+    width: 40px;
+    height: 40px;
+    margin-top: -40px;
+    border-radius: 50%;
+}
+.content{
+    padding: 50px 0;
+    /* border: 1px solid; */
+    /* margin: 40px 20px; */
+    height: 800px;
+    background-color: whitesmoke;
+    width: 90%;
+    margin: 40px 0;
+}
+.form a{
+    margin-left: 20px;
+}
+input{
+    width: 300px;
+    height: 100%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-color: rgb(172, 163, 163);
+}
+button{
+    background-color: transparent;
+    border: 1px solid;
+}
